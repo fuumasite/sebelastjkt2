@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+nav span {
+  font-weight: bold;
+}
+
+.text-biru {
+  color: #1f74ff;
+}
+
+section {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+  .nav-custom {
+    margin-right: 15px;
+  }
+  .carousel-caption span {
+    font-size: 60px;
+  }
+}
+
+.carousel-caption span,
+.carousel-caption button {
+  text-shadow: 3px 4px 7px rgba(8, 7, 2, 0.8);
+}
+
+.carousel-caption button {
+  box-shadow: 3px 4px 7px rgba(8, 7, 2, 0.8);
+}
+
+.typo-space-line::after,
+.typo-space-line-center::after {
+  content: "";
+  width: 150px;
+  display: block;
+  position: absolute;
+  border-bottom: 5px solid #1f74ff;
+}
+.typo-space-line-center::after {
+  left: 50%;
+  margin-left: -75px;
+}
+
+.typo-space-lines::after,
+.typo-space-line-centers::after {
+  content: "";
+  width: 150px;
+  display: block;
+  position: absolute;
+  border-bottom: 5px solid white;
+}
+.typo-space-line-centers::after {
+  left: 50%;
+  margin-left: -74px;
+}
+
+.tentang p {
+  padding-top: 15px;
+}
+
+.tentang {
+  padding-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+}
+
+.carousel-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-item img {
+  filter: contrast(65%);
+}
+
+.carousel-item a:hover {
+  color: white;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.judul {
+  color: #1f74ff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+section.galeri {
+  background-image: url("../img/bg-kemang.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+}
+
+.galeri .containers {
+  position: relative;
+  z-index: 2;
+}
+
+.galeri:after {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  content: "";
+  background: #3984ff;
+  opacity: 0.7;
+}
+
+.galeri h1 {
+  color: white;
+  text-shadow: 3px 4px 7px rgba(8, 7, 2, 0.8);
+}
+
+.galeri img:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #1f74ff;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+  padding: 25px 0px;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+footer p a,
+footer p a:hover {
+  color: #f5a425;
+}
+
+.swiper {
+  width: 80%;
+  height: 100%;
+}
