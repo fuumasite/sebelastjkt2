@@ -27,6 +27,9 @@ section {
   }
 }
 
+.carousel-item img {
+}
+
 .carousel-caption span,
 .carousel-caption button {
   text-shadow: 3px 4px 7px rgba(8, 7, 2, 0.8);
