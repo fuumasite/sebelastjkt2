@@ -146,48 +146,6 @@ section.galeri {
   opacity: 0.8;
 }
 
-.guru {
-  padding: 60px 0;
-}
-
-.guru .nama-guru {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
-}
-
-.guru .nama-guru .nama-guru-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.guru .nama-guru .nama-guru-info {
-  padding: 25px 15px;
-}
-
-.guru .nama-guru .nama-guru-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #222222;
-}
-
-.guru .nama-guru .nama-guru-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
-}
-
-.guru .nama-guru .nama-guru-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
-}
-
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
